@@ -7,7 +7,7 @@ interface LogoProps {
 }
 
 export const Logo: React.FC<LogoProps> = ({ size = "md", showWordmark = true }) => {
-  const iconSize = size === "sm" ? 17 : size === "lg" ? 28 : 21;
+  const iconSize = size === "sm" ? 15 : size === "lg" ? 26 : 19;
 
   return (
     <div className="flex items-center gap-2.5 select-none">
