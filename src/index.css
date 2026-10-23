@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Geist', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: 'Geist', Arial, sans-serif;
+    color: #171717;
+    background-color: #F5F5F3;
+  }
+
+  input,
+  button,
+  textarea,
+  select,
+  optgroup {
+    font-family: inherit;
+  }
+
+  code,
+  pre,
+  kbd {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5D5D3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8B8B4;
+}

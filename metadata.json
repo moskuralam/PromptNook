@@ -1,0 +1,6 @@
+{
+  "name": "PromptNook",
+  "description": "Your prompts, all in one place. A fast, browser-based personal library to save, organize, search, and copy AI prompts with local persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
